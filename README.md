@@ -5,7 +5,7 @@
 > Black plays first if white did not win in the previous game, and players alternate in placing a stone of their color on an empty intersection. The winner is the first player to get an unbroken row of five stones horizontally, vertically, or diagonally.
 
 ##### Final presentation
-- access https://yann-wang.github.io/Gomoku
+- access http://wangyn.net/Gomoku/
 
 ##### start project
 
