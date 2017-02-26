@@ -8,8 +8,8 @@ export default React.createClass({
                 <h1 className="title">Gomoku</h1>
 
                 <ul role="nav">
-                    <li><NavLink to="/" onlyActiveOnIndex>Home</NavLink></li>
-                    <li><NavLink to="/profile">Gomoku profile</NavLink></li>
+                    <li><NavLink to="/Gomoku-bundle" onlyActiveOnIndex>Home</NavLink></li>
+                    <li><NavLink to="/Gomoku-bundle/profile">Gomoku profile</NavLink></li>
                 </ul>
 
                 {this.props.children}

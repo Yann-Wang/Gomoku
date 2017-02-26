@@ -5,8 +5,8 @@ import Gomoku from './Gomoku'
 import Profile from './Profile'
 
 module.exports = (
-    <Route path="/" component={App}>
+    <Route path="/Gomoku-bundle" component={App}>
         <IndexRoute component={Gomoku}/>
-        <Route path="/profile" component={Profile}/>
+        <Route path="/Gomoku-bundle/profile" component={Profile}/>
     </Route>
 );
