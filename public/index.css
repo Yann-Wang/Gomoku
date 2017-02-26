@@ -1,0 +1,109 @@
+.active {
+    color: green;
+}
+
+body {
+    font: 14px "Century Gothic", Futura, sans-serif;
+    margin: 20px;
+}
+
+ol, ul {
+    padding-left: 30px;
+}
+
+.board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.status {
+    margin-bottom: 10px;
+}
+
+.square {
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 34px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 34px;
+}
+
+.square:focus {
+    outline: none;
+}
+
+.kbd-navigation .square:focus {
+    background: #ddd;
+}
+
+a{
+    text-decoration: none;
+}
+
+.gomoku_profile{
+    margin:10px 0 20px;
+    font: 18px/24px scan-serif;
+}
+
+.m-bd{
+    min-width: 860px;
+}
+
+
+/* game component */
+.game {
+    margin:0 auto;
+    overflow:hidden;
+    width: 860px;
+}
+
+/* board component */
+.game-board{
+    float:left;
+    margin:0 auto;
+}
+
+.board-type{
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+.board{
+    width:640px;
+    margin:0 auto;
+}
+
+.board-row{
+    margin: 0 auto;
+    /*width: 495px;   //15x15  */
+    /*width: 627px;   //19x19  */
+}
+
+
+
+
+.game-info {
+    float:left;
+    margin-left: 20px;
+    width:200px;
+}
+
+
+
+.movelist-focus{
+    font-weight:bold;
+}
+
+.board-winner-focus{
+    background:greenyellow;
+}
+
+
