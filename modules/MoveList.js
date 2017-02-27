@@ -14,7 +14,7 @@ class MoveList extends React.Component {
             const coordinate = step.active ? "(" + step.active.x + "," + step.active.y + ")" : move;
             const desc = move ?
             'Move #' + coordinate :
-                'Reset';
+                (<button>Reset</button>);
             return (
                 <li key={move}>
                     <a href="#" onClick={(e) => this.props.jumpTo(move, e)}>{desc}</a>
